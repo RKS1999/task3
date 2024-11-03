@@ -25,6 +25,14 @@ p {
   color: #555;
 }
 
+.header-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
 .box-model {
   margin-bottom: 30px;
 }
@@ -42,6 +50,23 @@ p {
   border: 20px solid #333;
   margin-bottom: 20px;
   background-color: #f9f9f9;
+}
+
+.gradient-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(45deg, #f06595, #ff6b6b);
 }
 
 .font-sizes {
